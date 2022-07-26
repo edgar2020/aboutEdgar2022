@@ -1,1 +1,75 @@
+body {
+    /* background-color: pink;
+    margin: 0 50px; */
+}
+
+#leftColumn
+{
+    background-color: green;
+    width: 250px;
+    float: left;
+    
+}
+#rightColumn
+{
+    float:right;
+    padding: 0 30px;
+    width: calc(100% - 310px);
+    background-color: blue;
+}
+
+/* Title and Subheading */
+#contentName {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0px;
+    text-decoration: solid underline 5px black;
+}
+
+#contentNameSubheading {
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Headshot and Socials */
+#headshotContainer {
+    /* padding: 0px; */
+    background-color: whitesmoke;
+    width: 200px;
+    margin: 5px auto;
+    border: 3px solid black;
+    box-shadow: -4px 4px 24px rgb(41, 41, 41);
+}
+
+#headshotContainer figcaption {
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials 
+{
+    width: 32px;
+    /* background-color: pink; */
+
+}
+
+.socials img
+{
+    width: 32px;
+}
+
+#contentHeadshot {
+    width: 100%;
+}
+
+/* Sections */
+
+.sectionHeader {
+    font-size: 1.75rem;
+}
+    /* About Me */
+    #contentAboutMe {
+        justify-content: center;
+    }
 
