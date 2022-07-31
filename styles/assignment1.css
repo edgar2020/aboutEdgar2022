@@ -125,18 +125,25 @@ body {
 
 .sectionHeader {
     font-size: 1.8rem;
+    font-family: 'Bevan', cursive;
     /* background-color: red; */
-    margin: 25px 0 0 0;
+    color: #000000;
+    text-shadow: 1px 2px 4px rgb(255, 233, 143);
+    margin: 45px 0 0 0;
     border-bottom: 1px solid black;
 }
 .content
 {
-    margin-left: 10px;
+    margin-left: 30px;
     text-align: justify;
 }
 .content p
 {
-    text-indent: 15px;
+    text-indent: 20px;
+}
+li
+{
+    list-style-type: '-';
 }
 
 .table, td, th
@@ -145,7 +152,7 @@ body {
 }
 .table
 {
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 30px;
     /* border-collapse: collapse; */
 }
 #contentExpTable tr:nth-child(odd) td
@@ -154,6 +161,7 @@ body {
     font-weight: bold;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.151);
+    
 }
 
 #contentExpTable tr td ul
@@ -188,6 +196,10 @@ a:hover
     text-decoration: underline;
 }
 
+.projectLinks:visited
+{
+    color: darkred;
+}
 .navLinks a:link
 {
     color: black;
@@ -252,6 +264,11 @@ a:hover
         width: 45%;
     }
 
+    .content
+    {
+        margin-left: 10px;
+        text-align: justify;
+    }
     #rightColumn
     {
         
