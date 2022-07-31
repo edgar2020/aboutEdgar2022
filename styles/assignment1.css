@@ -175,3 +175,37 @@ ul li
 h4{
     margin-bottom: 0;
 }
+
+a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 90);
+}
+a:hover
+{
+    text-decoration: underline;
+}
+
+.navLinks a:link
+{
+    color: black;
+    padding: 4px;
+    background-color: none;
+    text-decoration: none;
+}
+#navUl ul li a:hover
+{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+#navUl ul li a:visited 
+{
+    /* text-decoration: line-through */
+    /* font-weight: lighter; */
+    
+    color: rgb(0, 0, 208);
+}
