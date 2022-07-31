@@ -210,6 +210,11 @@ a:hover
     
     color: rgb(0, 0, 208);
 }
+#contentEduTable td
+{
+    padding: 5px;
+
+}
 
 @media (max-width: 900px)
 {
@@ -222,8 +227,9 @@ a:hover
         display: block;
         margin: auto;
         transform: rotate(0deg);
-        width: 460px;
+        width: 90%;
         position: relative;
+        padding: 10px;
         margin-bottom: 30px;
         
     }
@@ -233,6 +239,7 @@ a:hover
         margin: 5px;
         display: inline-block;
         border: 1px solid black;
+        width:45%;
         background-color: rgb(216, 216, 216);
     }
     #navUl
@@ -242,7 +249,7 @@ a:hover
         vertical-align: top;
         margin-top: 20px;
         /* background-color: rebeccapurple; */
-        width: 200px;
+        width: 45%;
     }
 
     #rightColumn
@@ -251,7 +258,32 @@ a:hover
         /* display: inline-block; */
         margin: 0 auto;
         padding: 0 30px;
-        width: 80%;
-        /* font-size: 1.15rem; */
+        width: 85%;
+    }
+    .table, td, th
+    {
+        border:1px solid black
+    }
+    .table
+    {
+        margin: 5px 0 0 5px;
+        font-size: 0.88rem;
+        max-width: 85%;
+    }
+    #contentExpTable tr:nth-child(odd) td
+    {  
+        padding: 2px 2px 2px 7px;
+        font-weight: bold;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.151);
+        font-size: 0.9rem
+    }
+
+    #contentExpTable tr td ul
+    {
+        margin: 10px 0;
+        padding-left: 15px;
+        font-size: 0.88rem
+        /* background-color: rgb(168, 2, 2); */
     }
 }
